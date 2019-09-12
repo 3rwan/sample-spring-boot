@@ -86,7 +86,7 @@ public class DemoApplicationTests {
 		//WHEN
 		Integer result = DemoApplication.multiplier(1,2);
 		//THEN
-		Integer expected = 2;
+		Integer expected = 3;
 		if (result == expected) {
 			assertTrue(true);
 		}
